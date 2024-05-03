@@ -1,0 +1,14 @@
+automation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .github/**
+
+wiki:
+  - changed-files:
+      - any-glob-to-any-file:
+          - wiki/**
+
+scripts:
+  - changed-files:
+      - any-glob-to-any-file:
+          - scripts/**

@@ -1,0 +1,41 @@
+name: Tools
+about: Use this template for proposing the introduction of a new tool, build system, or 3rd party library into the codebase.
+title: "[Tool Request] "
+
+labels:
+  - tooling
+  - needs-triage
+
+assignees: "sarvsav"
+
+description: |
+  ## New Tool/Library Introduction 🛠️
+
+  ### Description ℹ️
+  [Provide a brief description of the new tool, build system, or library and its purpose]
+
+  ### Proposed Changes ✨
+  [Detail the changes required to introduce the new tool/library into the codebase]
+
+  ### Benefits 🚀
+  [Explain the benefits and advantages of introducing this tool/library]
+
+  ### Alternatives Considered 🔄
+  [Describe any alternative solutions that were considered and why they were not chosen]
+
+  ### Risks and Mitigations ⚠️
+  [Identify any potential risks associated with introducing the new tool/library and propose mitigations]
+
+  ### Additional Context 🌐
+  [Include any additional context or information that may be relevant]
+
+  ### Checklist ✅
+  - [ ] I have provided a clear description of the new tool, build system, or library.
+  - [ ] I have explained the proposed changes and their impact on the codebase.
+  - [ ] I have outlined the benefits of introducing the new tool/library.
+  - [ ] I have considered alternative solutions and explained why they were not chosen.
+  - [ ] I have identified potential risks and proposed mitigations.
+  - [ ] I have provided any additional context or information that may be relevant.
+
+  ### Related Issues and PRs 🔗
+  [List any related issues or pull requests]

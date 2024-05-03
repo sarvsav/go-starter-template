@@ -1,0 +1,35 @@
+name: Documentation Update
+about: Use this template for adding or updating documentation
+title: "[Documentation] "
+labels:
+  - documentation
+  - needs-triage
+assignees: "sarvsav"
+
+description: |
+  ## Documentation Update 📝
+
+  ### Description ℹ️
+  [Provide a brief description of the documentation update or addition]
+
+  ### Current Documentation 📄
+  [Link to the current documentation or describe the existing state]
+
+  ### Proposed Changes ✨
+  [Detail the changes or additions you propose to make]
+
+  ### Reason for Update 🚀
+  [Explain the reason behind the proposed changes]
+
+  ### Additional Context 🌐
+  [Include any additional context or information that may be relevant]
+
+  ### Checklist ✅
+  - [ ] I have reviewed the existing documentation.
+  - [ ] I have made necessary changes or additions.
+  - [ ] I have tested the documentation changes where applicable.
+  - [ ] I have ensured consistency with the project's documentation style.
+  - [ ] I have linked relevant resources or references.
+
+  ### Screenshots or Examples (if applicable) 🖼️
+  [Attach any relevant screenshots or examples to illustrate the changes]
