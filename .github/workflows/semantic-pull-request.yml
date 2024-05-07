@@ -41,8 +41,12 @@ jobs:
                 ```
                 ${{ steps.lint-pr-title.outputs.error_message }}
                 ```
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - if: ${{ steps.lint-pr-title.outputs.error_message == null }}
         uses: marocchino/sticky-pull-request-comment@v2
         with:
             header: pr-title-lint-error
             delete: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
