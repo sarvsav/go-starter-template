@@ -1,0 +1,20 @@
+name: 'Close stale issues and PR'
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run at midnight every day
+
+jobs:
+    stale:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/stale@v9
+              with:
+                repo-token: ${{ secrets.GITHUB_TOKEN }}
+                stale-issue-message: 'This issue has been automatically closed because it has not had recent activity. Please reopen if needed.'
+                stale-pr-message: 'This pull request has been automatically closed because it has not had recent activity. Please reopen if needed.'
+                days-before-stale: 60
+                days-before-close: 7
+                stale-issue-label: stale
+                stale-pr-label: stale
+                exempt-issue-labels: 'awaiting response'
+                exempt-pr-labels: 'awaiting response'

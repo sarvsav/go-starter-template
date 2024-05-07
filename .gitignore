@@ -22,3 +22,5 @@ go.work
 
 # Ignoring tmp folder
 tmp/
+
+dist/

@@ -1,0 +1,10 @@
+reviewers:
+  # The default reviewers
+  defaults:
+    - repository-owners # group
+    - sarvsav # username
+
+  # Reviewer groups each of which has a list of GitHub usernames
+  groups:
+    repository-owners:
+      - sarvsav # username
