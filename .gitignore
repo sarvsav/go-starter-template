@@ -24,3 +24,18 @@ go.work
 tmp/
 
 dist/
+
+# bazel intermediate folders and files
+bazel-*
+bazel-out/
+
+# Bazel symlink forest (for the workspace root)
+bazel-bin/
+bazel-testlogs/
+bazel-genfiles/
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+
+# User-specific Bazel config
+.bazelrc.user

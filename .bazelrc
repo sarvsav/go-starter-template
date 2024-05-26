@@ -1,0 +1,4 @@
+# These files will enable the bzlmod feature in the bazel commands
+# and we don't have to specify --enable_bzlmod every time we run them.
+commmon --enable_bzlmod
+
