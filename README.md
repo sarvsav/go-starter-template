@@ -34,10 +34,10 @@
     <img src="assets/logo-go-starter.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Go Starter Template</h3>
 
   <p align="center">
-    project_description
+    A boiler plate for your Go project with best practices
     <br />
     <a href="https://github.com/sarvsav/go-starter-template"><strong>Explore the docs »</strong></a>
     <br />
