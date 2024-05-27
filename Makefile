@@ -75,6 +75,9 @@ ifeq ($(EXPORT_RESULT), true)
 endif
 	docker run --rm -it -v $(shell pwd):/data cytopia/yamllint -f parsable $(shell git ls-files '*.yml' '*.yaml') $(OUTPUT_OPTIONS)
 
+lint-proto: ## Use api-linter on the proto file of your projects
+	scripts/shell/lint-proto.sh
+
 ## Docker:
 docker-build: ## Use the dockerfile to build the container
 	docker build --rm --tag $(BINARY_NAME) .

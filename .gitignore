@@ -39,3 +39,6 @@ bazel-testlogs/
 
 # User-specific Bazel config
 .bazelrc.user
+
+# reports from different tools
+reports/
