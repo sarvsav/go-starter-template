@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package proto.greet.v1;
+
+import "google/api/annotations.proto";
+import "google/api/field_behavior.proto";
+
+option go_package = "greet/v1";
+option java_multiple_files = true;
+option java_outer_classname = "GreetingProto";
+option java_package = "com.proto.greet.v1";
+
+// GreetingService will say hello to the user
+service GreetingService {
+  // Sends a greeting to user
+  rpc GreetUser(GreetUserRequest) returns (GreetUserResponse) {
+    option (google.api.http) = {
+      post: "/v1/greet:greetUser"
+      body: "*"
+    };
+  }
+}
+
+// GreetUserRequest takes a name of the user to greet
+message GreetUserRequest {
+  // The name of the user
+  string name = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+// GreetUserResponse is the response to the user with a greeting
+message GreetUserResponse {
+  // A greeting message for the user
+  string message = 1;
+}

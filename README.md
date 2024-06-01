@@ -201,7 +201,20 @@ Project Link: [https://github.com/sarvsav/go-starter-template](https://github.co
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTORS -->
+## Contributors
 
+Big thanks to our contributors.
+
+<a href="https://github.com/sarvsav/go-starter-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sarvsav/go-starter-template" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+Kindly refer to the [contributing guide](./CONTRIBUTING.md) to contribute to the project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
