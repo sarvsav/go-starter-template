@@ -18,6 +18,13 @@ RESET  := $(shell tput -Txterm sgr0)
 
 all: help
 
+## Prebuild:
+prebuild: ## Generate the build files using gazelle
+	gazelle -repo_root . -go_prefix github.com/sarvsav/go-starter-template
+
+update-repos: ## Update dependencies using bazelisk
+	bazelisk run :gazelle-update-repos
+
 ## Build:
 build: ## Build your project and put the output binary in out/bin/
 	mkdir -p out/bin
@@ -34,6 +41,9 @@ vendor: ## Copy of all packages needed to support builds and tests in the vendor
 watch: ## Run the code with cosmtrek/air to have automatic reload on changes
 	$(eval PACKAGE_NAME=$(shell head -n 1 go.mod | cut -d ' ' -f2))
 	docker run -it --rm -w /go/src/$(PACKAGE_NAME) -v $(shell pwd):/go/src/$(PACKAGE_NAME) -p $(SERVICE_PORT):$(SERVICE_PORT) cosmtrek/air
+
+gen-protobuffer: ## Generate the protobuf files
+	./scripts/shell/gen-protobuffer.sh
 
 ## Test:
 test: ## Run the tests of the project

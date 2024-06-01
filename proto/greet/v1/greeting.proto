@@ -5,7 +5,7 @@ package proto.greet.v1;
 import "google/api/annotations.proto";
 import "google/api/field_behavior.proto";
 
-option go_package = "greetv1";
+option go_package = "greet/v1";
 option java_multiple_files = true;
 option java_outer_classname = "GreetingProto";
 option java_package = "com.proto.greet.v1";
