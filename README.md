@@ -38,14 +38,14 @@
   <p align="center">
     A boiler plate for your Go project with best practices
     <br />
-    <a href="https://github.com/sarvsav/go-starter-template"><strong>Explore the docs »</strong></a>
+    <a href="https://sarvsav.github.io/go-starter-template/"><strong>📘 Explore the docs  »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sarvsav/go-starter-template">View Demo</a>
+    <a href="https://calendly.com/sarvsav">📅 Book a meeting</a>
     ·
-    <a href="https://github.com/sarvsav/go-starter-template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/sarvsav/go-starter-template/issues/new?assignees=sarvsav&labels=bug%2Cneeds-triage&projects=&template=01_bug_report.yml">🐛 Report Bug</a>
     ·
-    <a href="https://github.com/sarvsav/go-starter-template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/sarvsav/go-starter-template/issues/new?assignees=sarvsav&labels=enhancement%2Cneeds-triage&projects=&template=02_feature_request.yml"> 🔨 Request Feature</a>
   </p>
 </div>
 
@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Go Starter Template][product-screenshot]](https://example.com)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
@@ -233,6 +233,6 @@ Kindly refer to the [contributing guide](./CONTRIBUTING.md) to contribute to the
 [license-url]: https://github.com/sarvsav/go-starter-template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: assets/go-starter-template.png
 [Golang]: https://img.shields.io/github/go-mod/go-version/sarvsav/go-starter-template?style=for-the-badge&logo=go
 [Go-url]: https://go.dev/
