@@ -73,6 +73,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#contributors">Contributors</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -82,9 +83,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Go Starter Template][product-screenshot]](https://example.com)
+[![Go Starter Template][product-screenshot]](https://sarvsav.github.io/go-starter-template/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This is a starter template for your `go` based projects. It is supercharged with latest technologies like `bazel`, `grpc`, `linters`, and much more. The new updates related to features, bug fixes, and securities will keep on adding with newer version of the template. The detailed version can be found on [project website](https://sarvsav.github.io/go-starter-template/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +93,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Go][Golang]][Go-url]
+[![Go][Golang]][Go-url]
+<br>
+[![Bazel][Bazel]][Bazel-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,3 +239,5 @@ Kindly refer to the [contributing guide](./CONTRIBUTING.md) to contribute to the
 [product-screenshot]: assets/go-starter-template.png
 [Golang]: https://img.shields.io/github/go-mod/go-version/sarvsav/go-starter-template?style=for-the-badge&logo=go
 [Go-url]: https://go.dev/
+[Bazel]: https://img.shields.io/badge/Bazel-v7-brightgreen?style=for-the-badge&logo=bazel
+[Bazel-url]: https://bazel.build/
