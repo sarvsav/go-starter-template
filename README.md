@@ -211,6 +211,15 @@ Kindly refer to the [contributing guide](./CONTRIBUTING.md) to contribute to the
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ADOPTERS -->
+## Adopters
+
+📢 If you're using go-starter-template in your organization, please add your company name to this list.
+
+By adding yourself to the [ADOPTERS.md](./ADOPTERS.md) file, you help increase the project's visibility and credibility, which is essential for its growth.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
