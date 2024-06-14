@@ -35,4 +35,4 @@ go_sdk.download(
 # Register the GO SDK installed on host
 go_sdk.host()
 
-bazel_dep(name = "protobuf", version = "27.1", repo_name = "com_google_protobuf")
+bazel_dep(name = "protobuf", version = "27.1.bcr.1", repo_name = "com_google_protobuf")
