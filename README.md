@@ -96,6 +96,8 @@ This is a starter template for your `go` based projects. It is supercharged with
 [![Go][Golang]][Go-url]
 <br>
 [![Bazel][Bazel]][Bazel-url]
+<br>
+[![docusaurus][docusaurus]][docusaurus-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,10 +245,10 @@ By adding yourself to the [ADOPTERS.md](./ADOPTERS.md) file, you help increase t
 [issues-url]: https://github.com/sarvsav/go-starter-template/issues
 [license-shield]: https://img.shields.io/github/license/sarvsav/go-starter-template.svg?style=for-the-badge
 [license-url]: https://github.com/sarvsav/go-starter-template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: assets/go-starter-template.png
 [Golang]: https://img.shields.io/github/go-mod/go-version/sarvsav/go-starter-template?style=for-the-badge&logo=go
 [Go-url]: https://go.dev/
 [Bazel]: https://img.shields.io/badge/Bazel-v7-brightgreen?style=for-the-badge&logo=bazel
 [Bazel-url]: https://bazel.build/
+[docusaurus]: https://img.shields.io/badge/docs-passing-green?style=for-the-badge&logo=docusaurus&logoColor=%233ECC5F
+[docusaurus-url]: https://docusaurus.io/
