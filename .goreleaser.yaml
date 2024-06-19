@@ -6,7 +6,7 @@
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 # vim: set ts=2 sw=2 tw=0 fo=cnqoj
 
-version: 1
+version: 2
 
 before:
   hooks:
@@ -38,9 +38,16 @@ archives:
       - goos: windows
         format: zip
 
+checksum:
+  name_template: 'checksums.txt'
+
 changelog:
   sort: asc
   filters:
     exclude:
       - "^docs:"
       - "^test:"
+      - "^chore:"
+      - Merge pull request
+      - Merge branch
+      - Merge remote-tracking branch

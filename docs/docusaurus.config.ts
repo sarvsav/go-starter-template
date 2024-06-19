@@ -57,7 +57,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/go-starter-template-social-card.jpg',
     navbar: {
       title: 'My Site',
       logo: {
