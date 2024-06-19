@@ -98,8 +98,7 @@ This is a starter template for your `go` based projects. It is supercharged with
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The repository contains the structures and tools that can be used to initialize your `go` project.
 
 ### Prerequisites
 
