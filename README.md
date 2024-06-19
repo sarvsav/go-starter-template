@@ -1,13 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 
 
 <!-- PROJECT SHIELDS -->
@@ -70,11 +62,11 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#thankyou">Thank You</a></li>
   </ol>
 </details>
 
@@ -111,38 +103,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+There is an interactive bash script named `main.bash`  located inside the `scripts` folder, that will install all the required dependencies and logs the information in `log` directory. You can run it by running below command from the project root.
+
+```bash
+./scripts/main.bash
+```
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/sarvsav/go-starter-template.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+The installation will be available after the first release of the product. Currently, you can use this as a template, by clicking the top icon and use template.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Choose the option `Use this template` for your new project as a boilerplate for it.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![Use This Template](./assets/use-this-template.png)
+
+_For more information, please refer to the [Documentation](https://sarvsav.github.io/go-starter-template/)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,30 +130,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Add database layer
+    - [ ] Add goose for migration
+    - [ ] Add sqlc for code generation
+- [ ] Add queue using nats
+- [ ] Enhance bash scripts
+- [ ] Add CLI to generate this template
+    - [ ] Add subcommand for help
 
 See the [open issues](https://github.com/sarvsav/go-starter-template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +147,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Discord Server - [Go Starter Template](https://discord.gg/ZNHGGGDsNe)
 
 Project Link: [https://github.com/sarvsav/go-starter-template](https://github.com/sarvsav/go-starter-template)
 
@@ -216,7 +180,7 @@ Kindly refer to the [contributing guide](./CONTRIBUTING.md) to contribute to the
 <!-- ADOPTERS -->
 ## Adopters
 
-📢 If you're using go-starter-template in your organization, please add your company name to this list.
+📢 If you're using go-starter-template in your organization, please add your name or company name to this [list](./ADOPTERS.md).
 
 By adding yourself to the [ADOPTERS.md](./ADOPTERS.md) file, you help increase the project's visibility and credibility, which is essential for its growth.
 
@@ -225,13 +189,14 @@ By adding yourself to the [ADOPTERS.md](./ADOPTERS.md) file, you help increase t
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Thank You -->
+## Thankyou
 
+If you appreciate this project, please consider showing your support by ⭐ starring it, 🔄 sharing it with your friends, or 💖 making a donation. Thank you!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
