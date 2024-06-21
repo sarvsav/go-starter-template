@@ -65,6 +65,11 @@ endif
 ## Lint:
 lint: lint-go lint-dockerfile lint-yaml ## Run all available linters
 
+## DB:
+migrate-table: ## Create the goose migration file for a new table
+	$(eval TABLE_NAME=$(shell read -p "Enter the table name: " table; echo $$table))
+	goose -dir db/migrations create create_$(TABLE_NAME) sql
+
 lint-dockerfile: ## Lint your Dockerfile
 # If dockerfile is present we lint it.
 ifeq ($(shell test -e ./Dockerfile && echo -n yes),yes)

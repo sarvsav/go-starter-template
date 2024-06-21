@@ -14,3 +14,19 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+database:
+  label: Database
+  permalink: /database
+  description: Database tag description
+sqlc:
+  label: SQLC
+  permalink: /sqlc
+  description: SQLC tag description
+goose:
+  label: Goose
+  permalink: /goose
+  description: Goose tag description
+http-status-codes:
+  label: HTTP Status Codes
+  permalink: /http-status-codes
+  description: HTTP Status Codes tag description
