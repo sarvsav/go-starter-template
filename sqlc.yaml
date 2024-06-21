@@ -1,0 +1,19 @@
+# This file defines the configuration for sqlc. It is used to generate Go code from SQL queries.
+version: "2"
+cloud:
+    organization: "Go Starter Template"
+    project: "GoStarterTemplate"
+    hostname: "go-starter-template.com"
+sql:
+    - engine: "postgresql"
+      queries: "./db/queries/"
+      schema: "./db/migrations/"
+      gen:
+        go:
+          package: "db"
+          out: "./db/sqlc"
+overrides:
+    go: null
+plugins: []
+rules: []
+options: {}

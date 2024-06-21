@@ -188,7 +188,7 @@ By adding yourself to the [ADOPTERS.md](./ADOPTERS.md) file, you help increase t
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
