@@ -6,7 +6,7 @@ authors:
   title: Http Status Code and Meanings
   url: https://github.com/sarvsav
   image_url: https://github.com/sarvsav.png
-tags: [http, code, meanings]
+tags: [http-status-codes]
 ---
 
 ## 2xx Successful

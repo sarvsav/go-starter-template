@@ -13,7 +13,7 @@ Let us understand on how to set up the things that will help to connect and perf
 
 ## Requirements
 
-We will use postgres for our development, and below are the list of tools that needs to be installed and setup in the environment PATH. Use the installation script from [scripts](./scripts/shell/install.sh) directory for installation of tools.
+We will use postgres for our development, and below are the list of tools that needs to be installed and setup in the environment PATH. Use the installation script from `scripts` directory for installation of tools.
 
 - [goose](https://github.com/pressly/goose)
 - [sqlc](https://github.com/sqlc-dev/sqlc)
