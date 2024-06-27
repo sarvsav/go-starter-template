@@ -5,7 +5,7 @@ go 1.22.1
 require (
 	github.com/google/uuid v1.6.0
 	github.com/nats-io/nats.go v1.36.0
-	google.golang.org/genproto/googleapis/api v0.0.0-20240617180043-68d350f18fd4
+	google.golang.org/genproto/googleapis/api dc46fd24d27d
 	google.golang.org/grpc v1.64.0
 	google.golang.org/protobuf v1.34.2
 )
