@@ -19,6 +19,10 @@ Inspired from Bill Kennedy [service project](https://github.com/ardanlabs/servic
 
 - business/sdk/nats/nats.go - will be responsible to return the nats client to connect to nats server
 
+## UI
+
+A UI interface can be accessed using [NUI](https://github.com/nats-nui/nui).
+
 ## Resources
 
 Explore more about NATS on [nats-by-example](https://natsbyexample.com/).
