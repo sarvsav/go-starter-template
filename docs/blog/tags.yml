@@ -30,3 +30,7 @@ http-status-codes:
   label: HTTP Status Codes
   permalink: /http-status-codes
   description: HTTP Status Codes tag description
+nats:
+  label: NATS
+  permalink: /nats
+  description: NATS tag description
