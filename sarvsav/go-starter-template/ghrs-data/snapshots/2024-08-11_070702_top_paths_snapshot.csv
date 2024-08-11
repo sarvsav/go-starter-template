@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/sarvsav/go-starter-template,9,4
+/sarvsav/go-starter-template/tree/main/.github/workflows,6,1
+/sarvsav/go-starter-template/actions,5,1
+/sarvsav/go-starter-template/blob/main/.github/workflows/auto_request_review.yml,4,1
+/sarvsav/go-starter-template/blob/main/.github/workflows/deploy-docusaurus.yml,4,1
+/sarvsav/go-starter-template/blob/main/.github/workflows/goreleaser.yml,4,1
+/sarvsav/go-starter-template/blob/main/.github/workflows/govulncheck.yml,4,1
+/sarvsav/go-starter-template/blob/main/.github/workflows/greetings.yml,4,1
+/sarvsav/go-starter-template/blob/main/.github/workflows/semantic-pull-request.yml,4,1
+/sarvsav/go-starter-template/blob/main/.github/workflows/auto-assign-issues.yml,2,1
