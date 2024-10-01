@@ -57,3 +57,6 @@ deps.bzl
 docs/node_modules
 docs/.docusaurus
 docs/build
+
+## dotenv file as it is used for local development
+.env
