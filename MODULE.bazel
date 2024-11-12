@@ -19,7 +19,7 @@ bazel_dep(
 
 bazel_dep(
     name = "rules_proto",
-    version = "7.0.1"
+    version = "7.0.2"
 )
 
 # As we have a fixed version in go.mod file, we can sync with the same version using go_sdk module extension
