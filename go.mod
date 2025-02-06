@@ -9,7 +9,7 @@ require (
 	github.com/nats-io/nats.go v1.36.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20241113154021-e0fbfb71d213
 	google.golang.org/grpc v1.68.0
-	google.golang.org/protobuf v1.35.1
+	google.golang.org/protobuf v1.36.5
 )
 
 require (
