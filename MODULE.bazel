@@ -9,7 +9,7 @@ module (
 # Defining dependencies and latest versions are always listed on https://registry.bazel.build
 bazel_dep(
     name = "rules_go",
-    version = "0.50.1"
+    version = "0.53.0"
 )
 
 bazel_dep(
