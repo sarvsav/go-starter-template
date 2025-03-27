@@ -7,9 +7,9 @@ toolchain go1.24.1
 require (
 	github.com/google/uuid v1.6.0
 	github.com/nats-io/nats.go v1.36.0
-	google.golang.org/genproto/googleapis/api v0.0.0-20250313205543-e70fdf4c4cb4
-	google.golang.org/grpc v1.68.0
-	google.golang.org/protobuf v1.36.5
+	google.golang.org/genproto/googleapis/api v0.0.0-20250324211829-b45e905df463
+	google.golang.org/grpc v1.71.0
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
@@ -21,5 +21,5 @@ require (
 	golang.org/x/net v0.37.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250227231956-55c901821b1e // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250313205543-e70fdf4c4cb4 // indirect
 )
