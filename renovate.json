@@ -3,7 +3,9 @@
   "extends": [
     "config:recommended"
   ],
+  "automerge": true,
   "labels": [
     "bot"
-  ]
+  ],
+  "rebaseWhen": "conflicted"
 }
